@@ -1,3 +1,4 @@
+//* npm install --save-dev @faker-js/faker
 import { faker} from '@faker-js/faker';
 
 export const users = Array(1000).fill(0).map((_,i) => ({
