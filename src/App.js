@@ -8,7 +8,8 @@ import './App.css';
 // import Ref from './Hooks/Ref';
 // import Reducer from './Hooks/reducer/Index'
 // import Imperative from './Hooks/ImperativeHandle/Index'
-import Memo from './Hooks/memo/Index'
+// import Memo from './Hooks/memo/Index'
+import Custom from './Hooks/custom/Index'
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
       {/* <Ref/> */}
       {/* <Reducer /> */}
       {/* <Imperative/> */}
-      <Memo />
+      {/* <Memo /> */}
+      <Custom />
     </div>
   );
 } 
